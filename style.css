@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .header_image{
     max-width: 100px;
     max-height: 100px;
@@ -17,6 +21,12 @@
     background-color: #1F2937;
 }
 
+.blue{
+    padding: 80px;
+    Padding-top: 8px;
+    border;: 0
+}
+
 .awesome{
     font-size: 48px;
     color: #F9FAF8;
@@ -32,6 +42,8 @@ ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 16px
 }
 
 a{
@@ -55,6 +67,17 @@ a{
 
 .inspiring{
     font-size: 36px;
+    font-weight: 200;
     font-style: italic;
     color: #1F2937
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_image, .links{
+    display: flex;
+    align-items: center;
 }
