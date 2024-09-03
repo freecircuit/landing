@@ -5,6 +5,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .header_image{
@@ -153,6 +154,7 @@ button{
     align-self: center;
     /* margin-left: auto; */
     text-align: left;
+    font-weight: 100;
 }
 
 .center_bottom{
@@ -191,4 +193,9 @@ button{
     border-radius: 5px;
     border-width: 2px;
     border-color: #E5E7EB;
+ }
+
+ .footer{
+    padding: 20px;
+    color: #E5E7EB;
  }
