@@ -10,5 +10,31 @@
 
 .info img{
     max-width: 200px;
-    max-height: 200px:
+    max-height: 200px;
+}
+
+.blue, .footer{
+    background-color: #1F2937;
+}
+
+.awesome{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+li, .hero{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
 }
