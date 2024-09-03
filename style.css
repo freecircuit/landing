@@ -96,13 +96,13 @@ button{
 
 .header_image, .links{
     display: flex;
-    align-items: center;
+    gap: 20px;
 }
 
 .hero1{
     display: flex;
     justify-content: space-between;
-    padding: 50px;
+    padding-top: 50px;
 }
 
 .left1{
@@ -133,3 +133,62 @@ button{
 .info{
     max-width: 200px;
 }
+
+.center_grey{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 120px;
+    align-items: center;
+}
+
+.thor{
+    align-self: flex-end;
+    font-weight: 800;
+    margin-right: 100px;
+}
+
+.inspiring{
+    max-width: 700px;
+    align-self: center;
+    /* margin-left: auto; */
+    text-align: left;
+}
+
+.center_bottom{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    border-radius: 5px;
+    gap: 60px
+}
+
+.bottom_text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #E5E7EB;
+}
+
+.action{
+    font-weight: 800;
+}
+
+.product{
+    font-size: smaller;
+}
+
+ .center_bottom button{
+    padding: 5px 30px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #E5E7EB;
+ }
